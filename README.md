@@ -39,6 +39,12 @@ sudo mkdir /sd
 ```
 
 ### Swap Memory
+```shell
+sudo fallocate -l 2G /sd/swapfile
+sudo chmod 0600 /sd/swapfile
+sudo mkswap /sd/swapfile
+sudo swapon /sd/swapfile
+```
 
 ### Compile bitcoind
 ```shell
