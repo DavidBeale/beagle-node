@@ -19,17 +19,21 @@ sudo apt-get upgrade
 ```
 
 ### Build Tools
-```
+```shell
 sudo apt-get install build-essential libboost-dev libdb-dev automake pkg-config
 ```
 
 ### SD Card mount
+```shell
+sudo mkdir /sd
+```
 
 ### Swap Memory
 
 ### Compile bitcoind
-
 ```shell
+sudo mkdir /sd/src/bitcoind
+cd /sd/src/bitcoind
 wget https://github.com/bitcoin/bitcoin/archive/v0.9.4.zip  # Check for a newer version
 unzip v0.9.4.zip
 cd bitcoin-0.9.4
