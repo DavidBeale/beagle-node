@@ -12,10 +12,32 @@ BealgeBone Black based Cryptocurrency node
 ### OS
 Ubuntu for BeagleBone Blach, flashed to eMMC - [Instructions](http://elinux.org/BeagleBoardUbuntu#eMMC:_BeagleBone_Black)
 
-### SD card mount
+### Update OS
+```shell
+sudo apt-get update
+sudo apt-get upgrade
+```
+
+### Build Tools
+```
+sudo apt-get install build-essential libboost-dev libdb-dev automake pkg-config
+```
+
+### SD Card mount
 
 ### Swap Memory
 
 ### Compile bitcoind
+
+```shell
+wget https://github.com/bitcoin/bitcoin/archive/v0.9.4.zip  # Check for a newer version
+unzip v0.9.4.zip
+cd bitcoin-0.9.4
+./autogen.sh
+./configure –disable-wallet --with-incompatible-bdb
+make # This will take a long time!
+cd src
+strip bitcoind
+```
 
 ### Setup bitcoind
