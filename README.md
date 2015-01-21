@@ -38,7 +38,7 @@ wget https://github.com/bitcoin/bitcoin/archive/v0.9.4.zip  # Check for a newer 
 unzip v0.9.4.zip
 cd bitcoin-0.9.4
 ./autogen.sh
-./configure –disable-wallet --with-incompatible-bdb
+./configure --disable-wallet --with-incompatible-bdb
 make # This will take a long time!
 cd src
 strip bitcoind
