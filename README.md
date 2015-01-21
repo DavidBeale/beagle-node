@@ -6,8 +6,18 @@ BealgeBone Black based Cryptocurrency node
 1. [BeagleBone Black](http://beagleboard.org/BLACK) x1
 2. Case [bb100](http://www.logicsupply.com/uk-en/components/beaglebone/boards-cases-kits/bb100/) x1
 3. 64GB Class 10 microSD card x1 
+4. Small Heatsink x1
+5. Thermal Paste x1
 
-## Installation
+## Hardware Installation
+
+1. Attach the Heatsink to the CPU, and any other near by clips you can cover.
+2. Place the board into the case.
+3. Insert the SD card.
+4. Attach network and power cables.
+
+
+## Software Installation
 
 ### OS
 Ubuntu for BeagleBone Blach, flashed to eMMC - [Instructions](http://elinux.org/BeagleBoardUbuntu#eMMC:_BeagleBone_Black)
