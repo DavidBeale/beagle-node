@@ -1,5 +1,5 @@
-# crypto-node
-BealgeBone Black based Cryptocurrency node
+# beagle-node
+BeagleBone Black based Cryptocurrency node
 
 
 ## BOM
