@@ -36,6 +36,12 @@ sudo apt-get install build-essential libboost-dev libdb-dev automake pkg-config
 ### SD Card mount
 ```shell
 sudo mkdir /sd
+sudo mount /dev/mmcblk0p1 /sd
+sudo mkdir /sd/bitcoind
+sudo mkdir /sd/bitcoind/src
+sudo chown ubuntu:ubuntu /sd/bitcoind/src
+sudo mkdir /sd/bitcoind/bin
+sudo chown bitcoind:bitcoind /sd/bitcoind/bin
 ```
 
 ### Swap Memory
@@ -48,8 +54,7 @@ sudo swapon /sd/swapfile
 
 ### Compile bitcoind
 ```shell
-sudo mkdir /sd/src/bitcoind
-cd /sd/src/bitcoind
+cd /sd/bitcoind/src
 wget https://github.com/bitcoin/bitcoin/archive/v0.9.4.zip  # Check for a newer version
 unzip v0.9.4.zip
 cd bitcoin-0.9.4
