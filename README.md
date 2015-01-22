@@ -33,7 +33,11 @@ sudo apt-get upgrade
 sudo apt-get install build-essential libboost-dev libdb-dev automake pkg-config
 ```
 
-### SD Card mount
+### bitcoind User
+```shell
+```
+
+### SD Card Mount
 ```shell
 sudo mkdir /sd
 sudo mount /dev/mmcblk0p1 /sd
