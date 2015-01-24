@@ -74,5 +74,8 @@ sudo useradd -m -d /sd/bitcoind/home bitcoind
 
 ### Setup bitcoind
 ```shell
-
+sudo mkdir /etc/bitcoind
+sudo mkdir /sd/bitcoind/data
+sudo wget /etc/bitcoind.conf
+sudo wget /etc/init/bitcoind.conf
 ```
