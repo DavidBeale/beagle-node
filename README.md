@@ -63,9 +63,8 @@ make # This will take a long time!
 cd src
 strip bitcoind
 strip bitcoin-cli
-sudo mkdir /sd/bitcoind/bin
-sudo mv bitcoind /sd/bitcoind/bin/
-sudo mv bitcoin-cli /sd/bitcoind/bin/
+sudo mv bitcoind /usr/bin/
+sudo mv bitcoin-cli /usr/bin/
 ```
 
 ### bitcoind User
