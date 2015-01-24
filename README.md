@@ -67,13 +67,9 @@ sudo mv bitcoind /usr/bin/
 sudo mv bitcoin-cli /usr/bin/
 ```
 
-### bitcoind User
-```shell
-sudo useradd -m -d /sd/bitcoind/home bitcoind
-```
-
 ### Setup bitcoind
 ```shell
+sudo useradd -m bitcoind
 sudo mkdir /etc/bitcoind
 sudo mkdir /sd/bitcoind/data
 sudo chown bitcoind:bitcoind /sd/bitcoind/data
