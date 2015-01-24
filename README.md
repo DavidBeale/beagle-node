@@ -33,15 +33,11 @@ sudo apt-get upgrade
 sudo apt-get install build-essential libboost-dev libdb-dev automake pkg-config
 ```
 
-### bitcoind User
-```shell
-```
-
 ### SD Card Mount
 ```shell
 sudo mkdir /sd
 sudo mount /dev/mmcblk0p1 /sd
-
+sudo echo /dev/mmcblk0p1	/sd	ext4	defaults	0 0 >> /etc/fstab
 ```
 
 ### Swap Memory
@@ -66,6 +62,10 @@ cd bitcoin-0.9.4
 make # This will take a long time!
 cd src
 strip bitcoind
+```
+
+### bitcoind User
+```shell
 ```
 
 ### Setup bitcoind
