@@ -66,6 +66,7 @@ strip bitcoind
 
 ### bitcoind User
 ```shell
+sudo useradd -m -d /sd/bitcoind/home bitcoind
 ```
 
 ### Setup bitcoind
