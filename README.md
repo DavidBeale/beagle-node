@@ -62,6 +62,10 @@ cd bitcoin-0.9.4
 make # This will take a long time!
 cd src
 strip bitcoind
+strip bitcoin-cli
+sudo mkdir /sd/bitcoind/bin
+sudo mv bitcoind /sd/bitcoind/bin/
+sudo mv bitcoin-cli /sd/bitcoind/bin/
 ```
 
 ### bitcoind User
@@ -71,6 +75,5 @@ sudo useradd -m -d /sd/bitcoind/home bitcoind
 
 ### Setup bitcoind
 ```shell
-sudo mkdir /sd/bitcoind/bin
-sudo chown bitcoind:bitcoind /sd/bitcoind/bin
+
 ```
