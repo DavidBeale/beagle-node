@@ -20,7 +20,7 @@ BeagleBone Black based Cryptocurrency node
 ## Software Installation
 
 ### OS
-Ubuntu for BeagleBone Blach, flashed to eMMC - [Instructions](http://elinux.org/BeagleBoardUbuntu#eMMC:_BeagleBone_Black)
+Ubuntu for BeagleBone Black, flashed to eMMC - [Instructions](http://elinux.org/BeagleBoardUbuntu#eMMC:_BeagleBone_Black)
 
 ### Update OS
 ```shell
