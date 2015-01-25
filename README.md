@@ -1,4 +1,4 @@
-# beagle-node
+# ![Logo](http://beagleboard.org/static/graphics/beagle_small.png) beagle-node
 BeagleBone Black based Cryptocurrency node
 
 
