@@ -86,3 +86,6 @@ Download the Blockchain bootstrap.dat file from torrent [bootstrap.dat](https://
 sudo service bitcoind start
 sudo tail -f /var/log/upstart/bitcoind.log  # Check the service starts
 ```
+### Web Dashboard
+Install [BTCnDash](https://bitbucket.org/mattdoiron/btcndash) by following the instructions in /doc/installation.rst
+Change the port to run on 80 to get a dashboard of stats for node.
