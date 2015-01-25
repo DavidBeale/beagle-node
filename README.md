@@ -46,7 +46,7 @@ sudo fallocate -l 2G /sd/swapfile
 sudo chmod 0600 /sd/swapfile
 sudo mkswap /sd/swapfile
 sudo swapon /sd/swapfile
-sudo eecho /sd/swapfile none  swap  sw  0 0 >> /etc/fstab
+sudo echo /sd/swapfile none  swap  sw  0 0 >> /etc/fstab
 ```
 
 ### Compile bitcoind
