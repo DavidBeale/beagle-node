@@ -37,7 +37,7 @@ sudo apt-get install build-essential libboost-dev libdb-dev automake pkg-config
 ```shell
 sudo mkdir /sd
 sudo mount /dev/mmcblk0p1 /sd
-sudo echo /dev/mmcblk0p1	/sd	ext4	defaults	0 0 >> /etc/fstab
+sudo echo /dev/mmcblk0p1  /sd ext4  defaults  0 0 >> /etc/fstab
 ```
 
 ### Swap Memory
@@ -46,6 +46,7 @@ sudo fallocate -l 2G /sd/swapfile
 sudo chmod 0600 /sd/swapfile
 sudo mkswap /sd/swapfile
 sudo swapon /sd/swapfile
+sudo eecho /sd/swapfile none  swap  sw  0 0 >> /etc/fstab
 ```
 
 ### Compile bitcoind
