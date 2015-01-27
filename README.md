@@ -2,7 +2,7 @@
 BeagleBone Black based Cryptocurrency node
 
 [![Open Case](img/open-case-small.jpg)](img/open-case.jpg)
-![Closed Case](img/closed-case-small.jpg)
+[![Closed Case](img/closed-case-small.jpg)](img/closed-case.jpg)
 
 ## BOM
 1. [BeagleBone Black](http://beagleboard.org/BLACK) x1
