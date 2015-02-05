@@ -1,8 +1,8 @@
 # ![Logo](http://beagleboard.org/static/graphics/beagle_small.png) beagle-node
 BeagleBone Black based Cryptocurrency node
 
-[![Open Case](img/open-case-small.jpg)](img/open-case.jpg?raw)
-[![Closed Case](img/closed-case-small.jpg)](img/closed-case.jpg?raw)
+[![Open Case](img/open-case-small.jpg)](https://raw.githubusercontent.com/DavidBeale/beagle-node/master/img/open-case.jpg)
+[![Closed Case](img/closed-case-small.jpg)](https://raw.githubusercontent.com/DavidBeale/beagle-node/master/img/closed-case.jpg)
 
 ## BOM
 1. [BeagleBone Black](http://beagleboard.org/BLACK) x1
