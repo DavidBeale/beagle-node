@@ -4,6 +4,8 @@ BeagleBone Black based Cryptocurrency node
 [![Open Case](img/open-case-small.jpg)](https://raw.githubusercontent.com/DavidBeale/beagle-node/master/img/open-case.jpg)
 [![Closed Case](img/closed-case-small.jpg)](https://raw.githubusercontent.com/DavidBeale/beagle-node/master/img/closed-case.jpg)
 
+[Live Dashboard](http://beagle-bone.bealearts.co.uk)
+
 ## BOM
 1. [BeagleBone Black](http://beagleboard.org/BLACK) x1
 2. Case [bb100](http://www.logicsupply.com/uk-en/components/beaglebone/boards-cases-kits/bb100/) x1
