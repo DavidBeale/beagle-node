@@ -13,7 +13,7 @@ BeagleBone Black based Cryptocurrency node - [Live Dashboard](http://beagle-node
 
 ## Hardware Installation
 
-1. Attach the Heatsink to the CPU, and any other near by chips you can cover.
+1. Attach the Heatsink to the CPU, and any other nearby chips you can cover.
 2. Place the board into the case.
 3. Insert the SD card.
 4. Attach network and power cables.
