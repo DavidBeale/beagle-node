@@ -32,7 +32,7 @@ sudo apt-get upgrade
 
 ### Build Tools
 ```shell
-sudo apt-get install build-essential libboost-dev libdb-dev automake pkg-config
+sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev
 ```
 
 ### SD Card Mount
@@ -57,9 +57,9 @@ sudo mkdir /sd/bitcoind
 sudo mkdir /sd/bitcoind/src
 sudo chown ubuntu:ubuntu /sd/bitcoind/src
 cd /sd/bitcoind/src
-wget https://github.com/bitcoin/bitcoin/archive/v0.9.4.zip  # Check for a newer version
-unzip v0.9.4.zip
-cd bitcoin-0.9.4
+wget https://github.com/bitcoin/bitcoin/archive/v0.10.0.zip  # Check for a newer version
+unzip v0.10.0.zip
+cd bitcoin-0.10.0
 ./autogen.sh
 ./configure --disable-wallet --with-incompatible-bdb
 make # This will take a long time!
