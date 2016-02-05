@@ -1,5 +1,5 @@
 # ![Logo](http://beagleboard.org/static/graphics/beagle_small.png) beagle-node
-BeagleBone Black based Cryptocurrency node - [Live Dashboard](http://beagle-node.bealearts.co.uk)
+BeagleBone Black based Cryptocurrency node
 
 [![Open Case](img/open-case-small.jpg)](https://raw.githubusercontent.com/DavidBeale/beagle-node/master/img/open-case.jpg)
 [![Closed Case](img/closed-case-small.jpg)](https://raw.githubusercontent.com/DavidBeale/beagle-node/master/img/closed-case.jpg)
